@@ -2,17 +2,21 @@
 
 nav {
     background-color: #333;
+    text-align: center;
 }
 
 ul {
+    display: flex;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    justify-content: center;
 }
 
 li {
-    float: left;
+    margin: 0 10px;
 }
 
 a {
@@ -23,6 +27,23 @@ a {
     text-decoration: none;
 }
 
+button{
+    display: block;
+    color: white;
+    text-align: center;
+    background-color: #333; /* Grey background */
+    padding: 10px 20px;
+    color: white; /* White text color */
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #555;
+}
 a:hover {
     background-color: #555;
 }
