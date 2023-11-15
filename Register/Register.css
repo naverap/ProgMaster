@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: David;
+}
+
+body {
+    background-image: url(../pictures/OIG.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    height: auto;
+    overflow-y: auto;
+}
+.registration-form {
+    height:170%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.registration-form h1 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.registration-form p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.registration-form input {
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form select {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button {
+    position: relative;
+    font-size: 18px;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: red;
+}
+
+div{
+    color:white;
+}
