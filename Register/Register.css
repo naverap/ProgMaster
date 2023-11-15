@@ -5,17 +5,22 @@
 }
 
 body {
-    background-color: darkred;
+    background-image: url(../pictures/OIG.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
     color: #fff;
+    height: auto;
+    overflow-y: auto;
 }
 .registration-form {
+    height:170%;
     position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
 }
-
 
 .registration-form h1 {
     font-size: 40px;
@@ -49,6 +54,7 @@ body {
 }
 
 .button {
+    position: relative;
     font-size: 18px;
     margin: 20px 0;
     padding: 10px 15px;

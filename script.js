@@ -11,5 +11,9 @@ document.getElementById("navToTS").addEventListener("click", function(){
 });
 
 document.getElementById("register").addEventListener("click", function(){
-    window.location.href = "Register.html"
+    window.location.href = "Register/Register.html"
+});
+
+document.getElementById("test").addEventListener("click", function(){
+    window.location.href = "test.html"
 });

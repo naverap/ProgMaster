@@ -1,0 +1,78 @@
+body{
+    background-image: url(../pictures/OIG.jpeg);
+    background-size: cover;
+}
+
+.slide-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 10000px; /* Adjust the width according to the number of slides */
+}
+
+.slide {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FDDA0D;
+    width: 1000px;
+}
+
+.code-container {
+    background-color: black;
+    border: 5px solid #FDDA0D;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navigation button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#text-container span{
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#user-input {
+    width: 80%; 
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    border: none; /* Remove default border */
+    background-color: transparent; /* Remove default background color */
+    outline: none; /* Remove the focus outline */
+}
+
+#user-input input{
+    background-color: transparent;
+}
+
+#for-input {
+    width: 80%; 
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 8px;
+    border: none; /* Remove default border */
+    background-color: transparent; /* Remove default background color */
+    outline: none; /* Remove the focus outline */
+}
+
+#for-input input{
+    background-color: transparent;
+}
