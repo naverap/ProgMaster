@@ -1,3 +1,4 @@
+
 document.getElementById("navToCS").addEventListener("click", function(){
     window.location.href = "pages/CSshortCuts.html"
 });
